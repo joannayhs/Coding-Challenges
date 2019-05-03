@@ -33,3 +33,12 @@ TOPIC: Arrays / Hashes
 
 Challenge Six
 Write a method which accepts an array of integers, and returns a hash of the input array’s length, its first index, its last index, and its maximum value. For example, an input of [1,5,2,78,2,3,6,1,3,5,1,6,4,2,63] should return {:length=>15, :first_index=>1, :last_index=>63, :maximum_value=>78}. You can use a for loop OR an iterator to complete this challenge.
+
+Challenge Seven
+Write a method that accepts an array and returns a hash whose keys are the unique elements of the array, and whose values are how many times each element appeared in the input array. For example, if your method input is [1,1,1,2,2,3] , your return value should be {1=>3, 2=>2, 3=>1}. An input of [1,5,2,78,2,3,6,1,3,5,1,6,4,2,63,78,2,1,1,3,1,1,5,2,1,1,63] should return {1=>9, 5=>3, 2=>5, 78=>2, 3=>3, 6=>2, 4=>1, 63=>2}.
+
+
+TOPIC: Map / Collect / Each
+
+Challenge Eight
+Write a method which accepts an array of strings of integers (ie [“1”, “2”, “3”]), and maps it to an array of integers corresponding to the string. For example, an input of [“1”, “2”, “3”, “4”, “5”, “6”, “7”, “8”] should return the following array: [1, 2, 3, 4, 5, 6, 7, 8].
