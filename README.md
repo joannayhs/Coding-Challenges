@@ -27,4 +27,9 @@ limit = array.length;
 	End
 
 Challenge Five
-5) Write a method which accepts an array and some other argument. Destructively change the input array to make its last element equal to the other input argument. Return the altered array.
+Write a method which accepts an array and some other argument. Destructively change the input array to make its last element equal to the other input argument. Return the altered array.
+
+TOPIC: Arrays / Hashes
+
+Challenge Six
+Write a method which accepts an array of integers, and returns a hash of the input array’s length, its first index, its last index, and its maximum value. For example, an input of [1,5,2,78,2,3,6,1,3,5,1,6,4,2,63] should return {:length=>15, :first_index=>1, :last_index=>63, :maximum_value=>78}. You can use a for loop OR an iterator to complete this challenge.
