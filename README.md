@@ -21,7 +21,7 @@ Challenge Four
 Write a method which accepts two arguments: an array, and some other arbitrary argument. Use a FOR loop  (example below) to loop over the array indices. If the array contains the element which was the second argument in your method, then return the index at which you found that element. If the second argument of your method is not in the array at all, return -1. (This is ok because there are no negative indices, so the caller of your method knows that it was not found if -1 is returned). YOU CANNOT USE find or include! So, if your input arguments are [“baseball”, “basketball”, “football”, “hockey”, “pokemon”, “lacrosse”, “soccer”] and “lacrosse”, then your output should be 5, because that is the index number of “lacrosse” in your input array. If your input arguments are [“baseball”, “basketball”, “football”, “hockey”, “pokemon”, “lacrosse”, “soccer”] and “Micah”, you should return -1 from your method. If your inputs are [1,2,3,4,5] and 1, then your method should return 0.
 
 For loop example :
-limit = array.length; 
+limit = array.length;
 	for counter in 0..limit
 		# Do stuff here
 	End
