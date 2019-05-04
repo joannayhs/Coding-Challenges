@@ -44,3 +44,7 @@ TOPIC: Map / Collect / Each
 [Note: If you have trouble writing this method, let me know and I’ll show you the answer. I don’t want you spending too much time figuring it out, it is not an important concept - the second method is more important.]
 
 Now, write another method which accepts an array of ints and uses the `each` iterator to iterate through them. Call your first method for each element in the input argument to your second method, and return the first element which returns 8 from your first method. If no number in your array returns 8 from your first method, your second method should return nil. For example, an input of [3.89310757468478, 7.821400507335797, 9.489479731433272, 1.5568686481719307, 2.1051095408316267, 9.161710697584876, 8.260510582112397, 6.401621941078249, 3.0068340622025347, 1.7677903283991292] should return 2.1051095408316267. An input of [6,7,8,9] should return `nil`.
+
+Advanced Challenges:
+
+1. Find the mean, median, and mode of the inputted data, and return the information as a hash. Note: assume the data is NOT multi-modal (ie there is only one mode). Hint1: use hashes to count the number of times you’ve seen a number for a mode. Hint2: mean = sum(arr_elements) / length of array.  Hint3: median = middle element if array length is odd, or the avarage of the two middle elements if the array length is even. Hint4: Dividing two integers together in ruby will probably not give you the correct answer (integer division will be performed). Make sure at least one number in the division is a float (use #to_f)
