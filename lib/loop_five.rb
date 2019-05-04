@@ -12,3 +12,10 @@ end
 
 
 candy = ["kitkat", "reeses", "hersheys", "twix"]
+
+def replace_last_simple(array, input)
+  array[-1] = input
+  array
+end
+
+replace_last_simple(candy, "other")

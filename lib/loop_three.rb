@@ -9,3 +9,10 @@ def reverse_array(array)
 end
 
 nums = [1,2,3,4,5,6,7,8,9,10]
+
+def map_reverse_array(array)
+  array.reverse
+end
+
+
+map_reverse_array(nums)
